@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e7ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    margin-top: 900px;
+    margin-bottom: 10px;
+}
+
+.header-background {
+    position: relative;
+}
+
+.background-image {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    bottom: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10%;
+    border: 1px ;
+    background-color: ;
+    z-index: 1;
+}
+
+.header-text {
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0 5px 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+    color: #555;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    background-color: #b8b8b8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #ddd;
+}
+
+.menu-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.menu-item span {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    content: "▼";
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    border-radius: 0 0 5px 5px;
+}
+
+.dropdown-content a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    margin: 0 5px;
+}
+
+.contact-icons img {
+    width: 24px;
+    height: 24px;
+}
